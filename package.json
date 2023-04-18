@@ -1,6 +1,6 @@
 {
     "name": "node-setrlimit",
-    "version": "4.2.0",
+    "version": "4.2.1",
     "description": "Extracted setrlimit from node-posix",
     "license": "MIT",
     "keywords": [
@@ -13,7 +13,7 @@
         "url": "git://github.com/mushishi78/node-setrlimit.git"
     },
     "author": "Mika Eloranta <mel@ohmu.fi>",
-    "main": "./lib/setrlimit",
+    "main": "./lib/posix",
     "dependencies": {
         "nan": "^2.14.x"
     },
