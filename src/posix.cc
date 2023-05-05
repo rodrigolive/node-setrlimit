@@ -25,6 +25,7 @@ static const name_to_int_t rlimit_name_to_res[] = {
   { "fsize", RLIMIT_FSIZE },
   { "nofile", RLIMIT_NOFILE },
   { "memlock", RLIMIT_MEMLOCK },
+  { "rss", RLIMIT_RSS },
   #ifdef RLIMIT_NPROC
   { "nproc", RLIMIT_NPROC },
     #endif
